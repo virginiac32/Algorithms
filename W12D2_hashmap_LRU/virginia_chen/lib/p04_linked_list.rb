@@ -83,6 +83,7 @@ class LinkedList
     newNode.prev = lastNode
     newNode.next = @tail
     @tail.prev = newNode
+    return newNode
   end
 
   def update(key, val)

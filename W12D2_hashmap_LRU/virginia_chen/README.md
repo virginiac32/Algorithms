@@ -372,7 +372,7 @@ permuted to form a palindrome. For example, "edified" can be permute to form
 ### Approach
 You've probably realized that we should use a hash map here. Use the hash map
 class that you implemented! This time, when you're setting and getting, picture
-in your mind what's goin on under the hood within the hashmap.
+in your mind what's going on under the hood within the hashmap.
 
 For example, whenever you set a key-value pair, picture all the specific
 processes that's happening to the inputs.
